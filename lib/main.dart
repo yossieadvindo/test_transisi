@@ -15,10 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: LoginPage(),
-      // home: ChangeNotifierProvider(
-      //   create: (context) => Employee(),
-      //   child: AddPage(),
-      // ),
     );
   }
 }
